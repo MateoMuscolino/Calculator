@@ -8,14 +8,14 @@
 .container{
     width: 100%;
     height: 100vh;
-    background: #6db2c5;
+    background: #7f9fa8;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .calculator{
-    background: #3a4452;
+    background: #496386;
     padding: 20px;
     border-radius: 10px;
 }
@@ -26,9 +26,9 @@
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
     background: transparent;
-    font-size: 20px;
+    font-size: 25px;
     color: #fff;
     cursor: pointer;
     margin: 10px;
@@ -52,5 +52,5 @@ form input.equal{
 }
 
 form input.operator{
-    color: #4181d4
+    color: #1b068d
 }
